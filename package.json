@@ -1,6 +1,6 @@
 {
   "name": "@redpill-paris/winston-limit-transport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package limiting the duplication of logs",
   "main": "index.js",
   "scripts": {
