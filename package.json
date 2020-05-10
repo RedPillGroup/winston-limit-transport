@@ -1,10 +1,10 @@
 {
   "name": "@redpill-paris/winston-limit-transport",
   "version": "1.0.0",
-  "description": "package limiting the deplication of logs",
+  "description": "package limiting the duplication of logs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./example/index.js"
   },
   "repository": {
     "type": "git",
