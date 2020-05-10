@@ -6,8 +6,9 @@ const logger = winston.createLogger({
   transports: [
     new WinstonLimit({
       timeout: 500,
-      transport: new winston.transports.Console(),
-      handleExceptions: true,
+      transport: new winston.transports.Console({
+        handleExceptions: true,
+      }),
     }),
   ],
 });

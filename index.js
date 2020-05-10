@@ -4,11 +4,6 @@ const hash = require('object-hash');
 class WinstonLimit extends Transport {
   constructor(options) {
     super(options);
-
-    const transportOptions = { ...options };
-    delete transportOptions.Transport;
-    delete transportOptions.timeout;
-
     this.timeout = options.timeout || 15000;
     this.lastLogs = {};
     this.logger = options.transport;
