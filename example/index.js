@@ -13,9 +13,6 @@ const logger = winston.createLogger({
 });
 
 logger.info('Logger init finish');
-logger.on('limited', (info) => {
-  console.log('LIMTED', info);
-});
 
 const mainTest = () => {
   const logNumber = 10000;
